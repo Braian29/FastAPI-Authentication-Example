@@ -2,15 +2,23 @@
 
 
 ## Descripción: 
-Este proyecto es un ejemplo de autenticación utilizando FastAPI, un framework de Python para crear APIs rápidas y seguras. El proyecto incluye una implementación básica de autenticación con username y password, generación de tokens de acceso y refresh, y verificación de tokens de acceso y refresh.
+Este proyecto es un ejemplo de autenticación utilizando FastAPI, un framework de Python para crear APIs rápidas y seguras. El proyecto incluye una implementación básica de autenticación con username y password, generación de tokens de acceso y refresh, y verificación de tokens de acceso y refresh. Además de una interfaz web con Jinja2, devolviendo plantillas html renderizadas.
 
 ## Características:
 
+* Registro con username, password y correo
+
 * Autenticación con username y password
+
 * Generación de tokens de acceso y refresh
 * Verificación de tokens de acceso y refresh
 * Rutas para inicio de sesión, registro, perfil de usuario y obtener token de acceso
 * Uso de SQLite como base de datos
+
+![Captura de pantalla 1](images/register.jpeg)
+![Captura de pantalla 1](images/login.jpeg)
+![Captura de pantalla 1](images/profile.jpeg)
+
 
 ## Índice
 
@@ -19,7 +27,7 @@ Este proyecto es un ejemplo de autenticación utilizando FastAPI, un framework d
 * [Características](#características)
 * [Desarrollo](#desarrollo)
 * [Licencia](#licencia)
-* [Tecnologías utilizadas](#Tecnologías utilizadas)
+* [Tecnologías](#tecnologías)
 
 ## Instalación
 
@@ -59,7 +67,7 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 
 Este proyecto se distribuye bajo la licencia MIT.
 
-## Tecnologías utilizadas:
+## Tecnologías:
 
 * FastAPI: Framework para crear APIs rápidas y seguras
 * Python: Lenguaje de programación utilizado para desarrollar el proyecto

@@ -1,0 +1,11 @@
+-- database: c:\Users\braia\__CD\Opciones\database.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+CREATE TABLE IF NOT EXISTS tokens (
+        id INTEGER PRIMARY KEY,
+        user_id INTEGER,
+        access_token TEXT,
+        refresh_token TEXT,
+        FOREIGN KEY (user_id) REFERENCES users (id)
+    );

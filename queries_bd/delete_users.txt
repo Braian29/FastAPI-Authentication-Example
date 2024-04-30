@@ -1,0 +1,8 @@
+-- database: c:\Users\braia\__CD\Usuarios\database.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+DELETE FROM sessions WHERE user_id IN (SELECT id FROM users);
+DELETE FROM tokens WHERE user_id IN (SELECT id FROM users);
+DELETE FROM users;
+VACUUM;
